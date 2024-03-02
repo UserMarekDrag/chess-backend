@@ -1,0 +1,19 @@
+# Ignore virtual environment folder (venv)
+env/
+
+# Ignore temporary files and directories
+working/
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.env
+*.env-prod
+certbot/
+
+# Ignore unit tests report folder
+htmlcov/
+*.coverage
+
+# Ignore documentation report folder
+docs/build/
