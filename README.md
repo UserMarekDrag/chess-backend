@@ -30,7 +30,7 @@
 
 ## Database Schema
 
-![Database Schema](moviemate_visualized.png)
+![Database Schema](db-schema.png)
 
 To generate a new database schema visualization, you can use the `django-extensions`'s `graph_models` command:
 
