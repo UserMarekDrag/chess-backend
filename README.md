@@ -26,7 +26,20 @@
     docker-compose up --build -d
     ```
 
-5. The backend will be now running at <http://localhost:8082/>.
+5. The backend will be now running at <http://localhost:8080/>.
+
+6. Run pylint locally:
+
+    ```console
+    export DJANGO_SETTINGS_MODULE=config.settings
+    pylint --rcfile=.pylintrc config
+    ```
+
+7. Run unit tests locally:
+
+    ```console
+    python manage.py test
+    ```
 
 ## Database Schema
 
